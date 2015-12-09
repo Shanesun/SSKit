@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34494FD21C18105E00D02A4E /* SSKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 34494FD11C18105E00D02A4E /* SSKit.h */; };
+		34494FD41C18105E00D02A4E /* SSKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 34494FD31C18105E00D02A4E /* SSKit.m */; };
+		349CA6D01C182DB1004196CD /* NSDictionary+safeObjectForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 349CA6CF1C182DB1004196CD /* NSDictionary+safeObjectForKey.m */; };
+		349CA6D31C183699004196CD /* NSMutableDictionary+safeSetObjectForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 349CA6D21C183699004196CD /* NSMutableDictionary+safeSetObjectForKey.m */; };
+		349CA6D91C184068004196CD /* NSNull+InternalNullExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 349CA6D81C184068004196CD /* NSNull+InternalNullExtention.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34494FCC1C18105E00D02A4E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				34494FD21C18105E00D02A4E /* SSKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		34494FCE1C18105E00D02A4E /* libSSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		34494FD11C18105E00D02A4E /* SSKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSKit.h; sourceTree = "<group>"; };
+		34494FD31C18105E00D02A4E /* SSKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSKit.m; sourceTree = "<group>"; };
+		349CA6CE1C182DB1004196CD /* NSDictionary+safeObjectForKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+safeObjectForKey.h"; sourceTree = "<group>"; };
+		349CA6CF1C182DB1004196CD /* NSDictionary+safeObjectForKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+safeObjectForKey.m"; sourceTree = "<group>"; };
+		349CA6D11C183699004196CD /* NSMutableDictionary+safeSetObjectForKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+safeSetObjectForKey.h"; sourceTree = "<group>"; };
+		349CA6D21C183699004196CD /* NSMutableDictionary+safeSetObjectForKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+safeSetObjectForKey.m"; sourceTree = "<group>"; };
+		349CA6D71C184068004196CD /* NSNull+InternalNullExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+InternalNullExtention.h"; sourceTree = "<group>"; };
+		349CA6D81C184068004196CD /* NSNull+InternalNullExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+InternalNullExtention.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34494FCB1C18105E00D02A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34494FC51C18105E00D02A4E = {
+			isa = PBXGroup;
+			children = (
+				34494FD01C18105E00D02A4E /* SSKit */,
+				34494FCF1C18105E00D02A4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34494FCF1C18105E00D02A4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34494FCE1C18105E00D02A4E /* libSSKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34494FD01C18105E00D02A4E /* SSKit */ = {
+			isa = PBXGroup;
+			children = (
+				34494FD11C18105E00D02A4E /* SSKit.h */,
+				34494FD31C18105E00D02A4E /* SSKit.m */,
+				349CA6CE1C182DB1004196CD /* NSDictionary+safeObjectForKey.h */,
+				349CA6CF1C182DB1004196CD /* NSDictionary+safeObjectForKey.m */,
+				349CA6D11C183699004196CD /* NSMutableDictionary+safeSetObjectForKey.h */,
+				349CA6D21C183699004196CD /* NSMutableDictionary+safeSetObjectForKey.m */,
+				349CA6D71C184068004196CD /* NSNull+InternalNullExtention.h */,
+				349CA6D81C184068004196CD /* NSNull+InternalNullExtention.m */,
+			);
+			path = SSKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34494FCD1C18105E00D02A4E /* SSKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34494FD71C18105E00D02A4E /* Build configuration list for PBXNativeTarget "SSKit" */;
+			buildPhases = (
+				34494FCA1C18105E00D02A4E /* Sources */,
+				34494FCB1C18105E00D02A4E /* Frameworks */,
+				34494FCC1C18105E00D02A4E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSKit;
+			productName = SSKit;
+			productReference = 34494FCE1C18105E00D02A4E /* libSSKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34494FC61C18105E00D02A4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Shane;
+				TargetAttributes = {
+					34494FCD1C18105E00D02A4E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 34494FC91C18105E00D02A4E /* Build configuration list for PBXProject "SSKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34494FC51C18105E00D02A4E;
+			productRefGroup = 34494FCF1C18105E00D02A4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34494FCD1C18105E00D02A4E /* SSKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34494FCA1C18105E00D02A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349CA6D31C183699004196CD /* NSMutableDictionary+safeSetObjectForKey.m in Sources */,
+				349CA6D01C182DB1004196CD /* NSDictionary+safeObjectForKey.m in Sources */,
+				349CA6D91C184068004196CD /* NSNull+InternalNullExtention.m in Sources */,
+				34494FD41C18105E00D02A4E /* SSKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34494FD51C18105E00D02A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34494FD61C18105E00D02A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34494FD81C18105E00D02A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		34494FD91C18105E00D02A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34494FC91C18105E00D02A4E /* Build configuration list for PBXProject "SSKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34494FD51C18105E00D02A4E /* Debug */,
+				34494FD61C18105E00D02A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34494FD71C18105E00D02A4E /* Build configuration list for PBXNativeTarget "SSKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34494FD81C18105E00D02A4E /* Debug */,
+				34494FD91C18105E00D02A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34494FC61C18105E00D02A4E /* Project object */;
+}
