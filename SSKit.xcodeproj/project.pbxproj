@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		34494FD21C18105E00D02A4E /* SSKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 34494FD11C18105E00D02A4E /* SSKit.h */; };
 		34494FD41C18105E00D02A4E /* SSKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 34494FD31C18105E00D02A4E /* SSKit.m */; };
-		349CA6D01C182DB1004196CD /* NSDictionary+safeObjectForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 349CA6CF1C182DB1004196CD /* NSDictionary+safeObjectForKey.m */; };
-		349CA6D31C183699004196CD /* NSMutableDictionary+safeSetObjectForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 349CA6D21C183699004196CD /* NSMutableDictionary+safeSetObjectForKey.m */; };
-		349CA6D91C184068004196CD /* NSNull+InternalNullExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 349CA6D81C184068004196CD /* NSNull+InternalNullExtention.m */; };
+		348B506E1C804B5B00E991DB /* NSDictionary+safeObjectForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 348B50691C804B5B00E991DB /* NSDictionary+safeObjectForKey.m */; };
+		348B506F1C804B5B00E991DB /* NSMutableDictionary+safeSetObjectForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 348B506B1C804B5B00E991DB /* NSMutableDictionary+safeSetObjectForKey.m */; };
+		348B50701C804B5B00E991DB /* NSNull+InternalNullExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 348B506D1C804B5B00E991DB /* NSNull+InternalNullExtention.m */; };
+		348B50741C804B9D00E991DB /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348B50731C804B9D00E991DB /* GuideViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,12 +32,14 @@
 		34494FCE1C18105E00D02A4E /* libSSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		34494FD11C18105E00D02A4E /* SSKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSKit.h; sourceTree = "<group>"; };
 		34494FD31C18105E00D02A4E /* SSKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSKit.m; sourceTree = "<group>"; };
-		349CA6CE1C182DB1004196CD /* NSDictionary+safeObjectForKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+safeObjectForKey.h"; sourceTree = "<group>"; };
-		349CA6CF1C182DB1004196CD /* NSDictionary+safeObjectForKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+safeObjectForKey.m"; sourceTree = "<group>"; };
-		349CA6D11C183699004196CD /* NSMutableDictionary+safeSetObjectForKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+safeSetObjectForKey.h"; sourceTree = "<group>"; };
-		349CA6D21C183699004196CD /* NSMutableDictionary+safeSetObjectForKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+safeSetObjectForKey.m"; sourceTree = "<group>"; };
-		349CA6D71C184068004196CD /* NSNull+InternalNullExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+InternalNullExtention.h"; sourceTree = "<group>"; };
-		349CA6D81C184068004196CD /* NSNull+InternalNullExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+InternalNullExtention.m"; sourceTree = "<group>"; };
+		348B50681C804B5B00E991DB /* NSDictionary+safeObjectForKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+safeObjectForKey.h"; sourceTree = "<group>"; };
+		348B50691C804B5B00E991DB /* NSDictionary+safeObjectForKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+safeObjectForKey.m"; sourceTree = "<group>"; };
+		348B506A1C804B5B00E991DB /* NSMutableDictionary+safeSetObjectForKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+safeSetObjectForKey.h"; sourceTree = "<group>"; };
+		348B506B1C804B5B00E991DB /* NSMutableDictionary+safeSetObjectForKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+safeSetObjectForKey.m"; sourceTree = "<group>"; };
+		348B506C1C804B5B00E991DB /* NSNull+InternalNullExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+InternalNullExtention.h"; sourceTree = "<group>"; };
+		348B506D1C804B5B00E991DB /* NSNull+InternalNullExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+InternalNullExtention.m"; sourceTree = "<group>"; };
+		348B50721C804B9D00E991DB /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
+		348B50731C804B9D00E991DB /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,16 +72,42 @@
 		34494FD01C18105E00D02A4E /* SSKit */ = {
 			isa = PBXGroup;
 			children = (
+				348B50751C804BAE00E991DB /* View */,
+				348B50711C804B9D00E991DB /* ViewController */,
+				348B50671C804B5B00E991DB /* Category */,
 				34494FD11C18105E00D02A4E /* SSKit.h */,
 				34494FD31C18105E00D02A4E /* SSKit.m */,
-				349CA6CE1C182DB1004196CD /* NSDictionary+safeObjectForKey.h */,
-				349CA6CF1C182DB1004196CD /* NSDictionary+safeObjectForKey.m */,
-				349CA6D11C183699004196CD /* NSMutableDictionary+safeSetObjectForKey.h */,
-				349CA6D21C183699004196CD /* NSMutableDictionary+safeSetObjectForKey.m */,
-				349CA6D71C184068004196CD /* NSNull+InternalNullExtention.h */,
-				349CA6D81C184068004196CD /* NSNull+InternalNullExtention.m */,
 			);
 			path = SSKit;
+			sourceTree = "<group>";
+		};
+		348B50671C804B5B00E991DB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				348B50681C804B5B00E991DB /* NSDictionary+safeObjectForKey.h */,
+				348B50691C804B5B00E991DB /* NSDictionary+safeObjectForKey.m */,
+				348B506A1C804B5B00E991DB /* NSMutableDictionary+safeSetObjectForKey.h */,
+				348B506B1C804B5B00E991DB /* NSMutableDictionary+safeSetObjectForKey.m */,
+				348B506C1C804B5B00E991DB /* NSNull+InternalNullExtention.h */,
+				348B506D1C804B5B00E991DB /* NSNull+InternalNullExtention.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		348B50711C804B9D00E991DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				348B50721C804B9D00E991DB /* GuideViewController.h */,
+				348B50731C804B9D00E991DB /* GuideViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		348B50751C804BAE00E991DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +166,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				349CA6D31C183699004196CD /* NSMutableDictionary+safeSetObjectForKey.m in Sources */,
-				349CA6D01C182DB1004196CD /* NSDictionary+safeObjectForKey.m in Sources */,
-				349CA6D91C184068004196CD /* NSNull+InternalNullExtention.m in Sources */,
+				348B506E1C804B5B00E991DB /* NSDictionary+safeObjectForKey.m in Sources */,
+				348B506F1C804B5B00E991DB /* NSMutableDictionary+safeSetObjectForKey.m in Sources */,
+				348B50741C804B9D00E991DB /* GuideViewController.m in Sources */,
+				348B50701C804B5B00E991DB /* NSNull+InternalNullExtention.m in Sources */,
 				34494FD41C18105E00D02A4E /* SSKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
